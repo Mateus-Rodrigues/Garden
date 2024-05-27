@@ -11,6 +11,15 @@ const styles = StyleSheet.create({
         
     },
 
+    fundoLogin: {
+        width: '100%', 
+        height: '100%', 
+        alignItems: 'center', 
+        backgroundColor: '#236c1a', 
+        padding: 8,
+        borderRadius: 10, 
+    },
+
     titulo:{ 
         alignItems: 'center', 
         textAlign: 'center',
@@ -23,10 +32,12 @@ const styles = StyleSheet.create({
         color: '#fff',
         display: 'flex',
         alignContent: 'stretch',
+        
     },
 
     input:{
-        fontSize: 10, 
+        fontSize: 20, 
+        color: '#fff',
         width: '100%', 
         textAlign: 'center', 
         borderWidth: 2, 
@@ -45,14 +56,14 @@ const styles = StyleSheet.create({
         backgroundColor: '#074A05',
         margin: 5,
         padding: 10,
-        width: '25%',
+        width: '35%',
         borderRadius: 10,
         display: 'flex',
-        alignItems: 'center'
+        alignItems: 'center',
     },
     txtButton: {
         color: '#fff',
-        fontSize: 10,
+        fontSize: 15,
         flex: 1,
         alignContent: 'center',
         alignItems: 'center',
