@@ -29,9 +29,14 @@ const styles = StyleSheet.create({
         fontSize: 10, 
         width: '100%', 
         textAlign: 'center', 
-        borderWidth: 1, 
-        borderColor: '#808080',  
+        borderWidth: 2, 
+        borderColor: '#fff',  
         padding: 5,
+        borderStyle: 'solid',
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderLeftWidth: 0,
+
         
     },
 
