@@ -2,9 +2,9 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container:{
-         width: '100%', 
-         height: '100%', 
-        // alignItems: 'center', 
+        width: '100%', 
+        height: '100%', 
+        alignItems: 'center', 
         backgroundColor: '#236c1a', 
         padding: 8,
         borderRadius: 10, 
@@ -14,24 +14,25 @@ const styles = StyleSheet.create({
     fundoLogin: {
         width: '100%', 
         height: '100%', 
-        alignItems: 'center', 
+        //alignItems: 'center', 
         backgroundColor: '#236c1a', 
         padding: 8,
         borderRadius: 10, 
     },
 
     titulo:{ 
+        fontSize: 50,
         alignItems: 'center', 
         textAlign: 'center',
         padding: 8,
         color: '#0F3820',
+        fontWeight: 'bold',
     },
 
     text:{
-        fontSize: 15,
+        fontSize: 20,
         color: '#fff',
-        display: 'flex',
-        alignContent: 'stretch',
+        
         
     },
 
@@ -51,26 +52,6 @@ const styles = StyleSheet.create({
         
     },
 
-    button: {
-        color: '#fff',
-        backgroundColor: '#074A05',
-        margin: 5,
-        padding: 10,
-        width: '35%',
-        borderRadius: 10,
-        display: 'flex',
-        alignItems: 'center',
-    },
-    txtButton: {
-        color: '#fff',
-        fontSize: 15,
-        flex: 1,
-        alignContent: 'center',
-        alignItems: 'center',
-        
-
-    },
-
     backg: {
         width: '100%',
         height: '100%',
@@ -79,7 +60,7 @@ const styles = StyleSheet.create({
 
     textPeq: {
         color: '#fff',
-        fontSize: 6,
+        fontSize: 15,
         textAlign: 'center'
     },
 });

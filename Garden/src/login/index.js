@@ -21,14 +21,6 @@ export default function Login ( ) {
             <Text style={styles.text}>Senha</Text>
             <TextInput style={styles.input}></TextInput>
 
-            <View style={styles.button}>
-            <Pressable >
-                <Text style={styles.txtButton}>
-                    ENTRAR
-                </Text>
-            </Pressable>
-            </View>
-
             <Text style={styles.textPeq}>Esqueceu a senha?</Text>
             <Text style={styles.textPeq}>Cadastre-se</Text>
             </ImageBackground>
