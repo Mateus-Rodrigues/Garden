@@ -1,9 +1,15 @@
 import React, {useState} from "react";
 import { ImageBackground, Pressable, StyleSheet,  Text, TextInput, View} from 'react-native';
 
+<<<<<<< Updated upstream
 import fundologin from '../assets/styles/fundologin.png';
 
 import styles from '../login/styles.js';
+=======
+import fundologin from '../assets/fundologin';
+
+import styles from '../login/styles';
+>>>>>>> Stashed changes
 
 
 export default function Login ( ) {
