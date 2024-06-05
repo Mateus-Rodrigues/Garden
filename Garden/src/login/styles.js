@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#236c1a', 
         padding: 8,
         borderRadius: 10, 
+        resizeMode: 'center'
     },
 
     titulo:{ 

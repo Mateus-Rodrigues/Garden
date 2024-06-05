@@ -1,16 +1,11 @@
 import React, {useState} from "react";
 import { ImageBackground, Pressable, StyleSheet,  Text, TextInput, View} from 'react-native';
 
-<<<<<<< Updated upstream
+
 import fundologin from '../assets/styles/fundologin.png';
 
 import styles from '../login/styles.js';
-=======
-import fundologin from '../assets/fundologin';
-
-import styles from '../login/styles';
->>>>>>> Stashed changes
-
+import Botao from "../botao/index.js";
 
 export default function Login ( ) {
     return (
@@ -26,10 +21,16 @@ export default function Login ( ) {
 
             <Text style={styles.text}>Senha</Text>
             <TextInput style={styles.input}></TextInput>
+            
+            <View style={styles.button} >
+               <Botao />
+            </View>
 
             <Text style={styles.textPeq}>Esqueceu a senha?</Text>
             <Text style={styles.textPeq}>Cadastre-se</Text>
+
             </ImageBackground>
+            
         </View>
 
     );
