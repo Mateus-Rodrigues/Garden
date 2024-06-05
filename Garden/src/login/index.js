@@ -16,11 +16,11 @@ export default function Login ( ) {
             >
             <Text style={styles.titulo}>GARDEN</Text>
 
-            <Text style={styles.text}>Usuário</Text>
-            <TextInput style={styles.input}></TextInput>
+            
+            <TextInput style={styles.input} placeholder="Usuário"></TextInput>
 
-            <Text style={styles.text}>Senha</Text>
-            <TextInput style={styles.input}></TextInput>
+            
+            <TextInput style={styles.input} placeholder="Senha"></TextInput>
             
             <View style={styles.button} >
                <Botao />

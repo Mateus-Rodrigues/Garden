@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-import Botao from './src/botao/index.js';
+//import Botao from './src/botao/index.js';
 import Login from '../Garden/src/login';
 
 export default function App() {
