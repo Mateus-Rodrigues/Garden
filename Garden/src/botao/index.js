@@ -4,8 +4,8 @@ import styles from '../botao/styles.js';
 
 export default function Botao ( ) {
     return(
-        <View style={styles.button}>
-        <Pressable >
+        <View >
+        <Pressable style={styles.button} >
             <Text style={styles.txtButton}>
                 ENTRAR
             </Text>

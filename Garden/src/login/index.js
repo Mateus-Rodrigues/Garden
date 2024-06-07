@@ -23,7 +23,9 @@ export default function Login ( ) {
             <TextInput style={styles.input} placeholder="Senha"></TextInput>
             
             <View style={styles.button} >
-               <Botao />
+               
+               <Botao style={styles.button} />
+
             </View>
 
             <Text style={styles.textPeq}>Esqueceu a senha?</Text>
