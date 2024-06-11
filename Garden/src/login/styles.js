@@ -41,6 +41,10 @@ const styles = StyleSheet.create({
         fontSize: 20, 
         color: '#fff',
         width: '100%', 
+<<<<<<< Updated upstream
+=======
+       // textAlign: 'center', 
+>>>>>>> Stashed changes
         borderWidth: 2, 
         borderColor: '#fff',  
         padding: 5,
@@ -48,6 +52,7 @@ const styles = StyleSheet.create({
         borderTopWidth: 0,
         borderRightWidth: 0,
         borderLeftWidth: 0,
+        marginBottom: 10
 
         
     },
